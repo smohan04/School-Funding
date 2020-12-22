@@ -69,9 +69,14 @@ Has the 2019 SAT percentage of those students meeting the college board benchmar
 
 ## Visualizations
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/sat_corr.png)
+#### Note: The intent of this heat map was to study the effects of daily expenditure on success on the SAT. The heat map shows a negative correlation between the two which is somewhat unexpected.
+
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/sat_vs_daily_exp.png)
+#### Note: Again we see a downward trend in the scatter plot.
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/act_corr.png)
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/act_vs_daily_exp.png)
+
+#### Note: ACT exams also show the same downward correlation between success on the exam and daily expenditure. From research, we know that school funding at the federal and state level both give more funding to schools with lower income families. Since percentage of students eligible for the Free and Reduced Price Meals (FRPM) can be a good estimate of income status of families, we will study the effects of FRPM and daily expenditure as well as test scores.
 
 As the districts with high daily_expenditure seem to have higher percentage_of_eligible_for_frpm. Districts with high percentage_of_eligible_for_frpm seem to be have lower ACT and SAT success rates. In congruence with the other two notes, districts with high daily_expenditure seem to have less success on the ACT and SAT.
 
