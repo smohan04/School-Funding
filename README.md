@@ -69,6 +69,7 @@ Has the 2019 SAT percentage of those students meeting the college board benchmar
 
 ## Visualizations
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/smohan04/School-Funding/blob/main/img/act_corr.png)
 
 As the districts with high daily_expenditure seem to have higher percentage_of_eligible_for_frpm. Districts with high percentage_of_eligible_for_frpm seem to be have lower ACT and SAT success rates. In congruence with the other two notes, districts with high daily_expenditure seem to have less success on the ACT and SAT.
 
