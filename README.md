@@ -2,7 +2,7 @@
 # School Funding & Standardized Test Analysis
 
 ### Contents:
-- [Problem Statement](#Problem Statement)
+- [Problem Statement](#Problem-Statement)
 - [Background](#Background)
 - [Data](#Data)
 - [Visualizations](#Visualizations)
