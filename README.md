@@ -6,7 +6,7 @@
 - [Background](#Background)
 - [Data](#Data)
 - [Visualizations](#Visualizations)
-- [Conclusions and Recommendations](#Conclusions and Recommendations)
+- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
 ## Problem Statement
 How effective are government funding programs in assisting lower-income students prepare for college?
