@@ -1,8 +1,28 @@
 
-# School Funding Affects on ACT AND SAT Scores
+# School Funding & Standardized Test Analysis
 
-### Problem Statement
+### Contents:
+- [Problem Statement](#Problem Statement)
+- [Background](#Background)
+- [Data](#Data)
+- [Visualizations](#Visualizations)
+- [Conclusions and Recommendations](#Conclusions and Recommendations)
+
+## Problem Statement
 How effective are government funding programs in assisting lower-income students prepare for college?
+
+## Background
+The SAT and ACT are standardized tests that many colleges and universities in the United States require for their admissions process. This score is used along with other materials such as grade point average (GPA) and essay responses to determine whether or not a potential student will be accepted to the university.
+
+The SAT has two sections of the test: Evidence-Based Reading and Writing and Math ([*source*](https://www.princetonreview.com/college/sat-sections)). The ACT has 4 sections: English, Mathematics, Reading, and Science, with an additional optional writing section ([*source*](https://www.act.org/content/act/en/products-and-services/the-act/scores/understanding-your-scores.html)). They have different score ranges, which you can read more about on their websites or additional outside sources (a quick Google search will help you understand the scores for each test):
+* [SAT](https://collegereadiness.collegeboard.org/sat)
+* [ACT](https://www.act.org/content/act/en.html)
+
+Standardized tests have long been a controversial topic for students, administrators, and legislators. Since the 1940's, an increasing number of colleges have been using scores from sudents' performances on tests like the SAT and the ACT as a measure for college readiness and aptitude ([*source*](https://www.minotdailynews.com/news/local-news/2017/04/a-brief-history-of-the-sat-and-act/)). Supporters of these tests argue that these scores can be used as an objective measure to determine college admittance. Opponents of these tests claim that these tests are not accurate measures of students potential or ability and serve as an inequitable barrier to entry. Lately, more and more schools are opting to drop the SAT/ACT requirement for their Fall 2021 applications ([*read more about this here*](https://www.cnn.com/2020/04/14/us/coronavirus-colleges-sat-act-test-trnd/index.html)).
+
+CollegeBoard has set benchmarks for both the Math and evidence-based reading & writing (ERW) sections of the exam ([*source*](https://collegereadiness.collegeboard.org/pdf/educator-benchmark-brief.pdf))
+* Math Benchmark = 530
+* ERW Benchmark = 480
 
 Research on school funding in the state of California, where does the money come from for school funding:
 
@@ -15,6 +35,14 @@ At the state and federal level, there are programs in place to help support dist
 
 Title I (Federal Program)- provides federal aid program for low income school districts(source)
 Local Control Funding Formula (LCFF)- formula which is used to determine how much state funds school districts receive. School districts with higher levels of poverty, foster care and/or districts with ESL students receive more state funding. (source)
+
+## Data
+
+* [`act_2019_ca.csv`](./data/act_2019_ca.csv): 2019 ACT Scores in California by School 
+Has the 2019 ACT average scores grouped by district, as well as the percentage of students meeting an average standard of 21 or above on the exam.
+
+* [`sat_2019_ca.csv`](./data/sat_2019_ca.csv): 2019 SAT Scores in California by School
+Has the 2019 SAT percentage of those students meeting the college board benchmarks grouped by district. 
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
@@ -39,20 +67,26 @@ Local Control Funding Formula (LCFF)- formula which is used to determine how muc
 |num_of_students_eligible_for_frpm|int|ACT_FRPM_EXP|Number of students eligible for FRPM in a district| 
 |percentage_eligible_for_frpm|float|ACT_FRPM_EXP|Percent of total enrolled students that are eligible for FRPM| 
 
-
+## Visualizations
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 As the districts with high daily_expenditure seem to have higher percentage_of_eligible_for_frpm. Districts with high percentage_of_eligible_for_frpm seem to be have lower ACT and SAT success rates. In congruence with the other two notes, districts with high daily_expenditure seem to have less success on the ACT and SAT.
 
 
 
-### Conclusions and Recommendations
 
+## Conclusions and Recommendations
 The Title I program and the LCFF were put into place to give each student equal opportunity to succeed. The data presented suggests the program is not doing enough to curb the difference between lower income students and their peers when it comes to ACT and SAT scores.
 
 It has been suggested that even with the government funded program schools in lower-income areas are not getting enough funding.
+* Some argue that allocating state funds based on attendance rather than enrollment disproprotionately hurts low income schools
 
-Some argue that allocating state funds based on attendance rather than enrollment disproprotionately hurts low income schools
 The issue may be how the funds are allocated.
+* Districts get funding based on poverty level but the allocation of funds is purely decided by the district
 
-Districts get funding based on poverty level but the allocation of funds is purely decided by the district
-Or money may not be the solution to solving the problem. It is safe to say that the current funding program is not doing enough to help underprivlaged students prepare for college.
+Or money may not be the solution to solving the problem. 
+It is safe to say that the current funding program is not doing enough to help underprivlaged students prepare for college.
+
+## Next Step
+* Research how funds are allocated in school districts.
+* Study how the intiatication of these programs affected SAT/ACT scores
