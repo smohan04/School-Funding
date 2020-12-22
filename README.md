@@ -1,7 +1,7 @@
 
-### Overview
+# School Funding Affects on ACT AND SAT Scores
 
-###Problem Statement
+### Problem Statement
 How effective are government funding programs in assisting lower-income students prepare for college?
 
 Research on school funding in the state of California, where does the money come from for school funding:
@@ -45,7 +45,7 @@ As the districts with high daily_expenditure seem to have higher percentage_of_e
 
 
 
-###Conclusions and Recommendations
+### Conclusions and Recommendations
 
 The Title I program and the LCFF were put into place to give each student equal opportunity to succeed. The data presented suggests the program is not doing enough to curb the difference between lower income students and their peers when it comes to ACT and SAT scores.
 
