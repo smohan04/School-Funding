@@ -69,19 +69,30 @@ Has the 2019 SAT percentage of those students meeting the college board benchmar
 
 ## Visualizations
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/sat_corr.png)
-#### Note: The intent of this heat map was to study the effects of daily expenditure on success on the SAT. The heat map shows a negative correlation between the two which is somewhat unexpected.
+#### Note: 
+The intent of this heat map was to study the effects of daily expenditure on success on the SAT. The heat map shows a negative correlation between the two which is somewhat unexpected.
 
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/sat_vs_daily_exp.png)
-#### Note: Again we see a downward trend in the scatter plot.
+#### Note: 
+Again we see a downward trend in the scatter plot.
+
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/act_corr.png)
 ![alt text](https://github.com/smohan04/School-Funding/blob/main/img/act_vs_daily_exp.png)
 
-#### Note: ACT exams also show the same downward correlation between success on the exam and daily expenditure. From research, we know that school funding at the federal and state level both give more funding to schools with lower income families. Since percentage of students eligible for the Free and Reduced Price Meals (FRPM) can be a good estimate of income status of families, we will study the effects of FRPM and daily expenditure as well as test scores.
+#### Note: 
+ACT exams also show the same downward correlation between success on the exam and daily expenditure. From research, we know that school funding at the federal and state level both give more funding to schools with lower income families. Since percentage of students eligible for the Free and Reduced Price Meals (FRPM) can be a good estimate of income status of families, we will study the effects of FRPM and daily expenditure as well as test scores.
+
+![alt text](https://github.com/smohan04/School-Funding/blob/main/img/SAT_FRPM_Corr.png)
+![alt text](https://github.com/smohan04/School-Funding/blob/main/img/ACT_FRPM_Corr.png)
+#### Note:
+Both the ACT and SAT heat map show a strong negative correlation between eligibility for FRPM and test score. Daily expenditure is positively correlated with daily expenditure. These two correlations suggests that the correlation between daily expenditure and test scores may be negative correlated because of the relationship to percentage of FRPM students.
+
+![alt text](https://github.com/smohan04/School-Funding/blob/main/img/SAT_FRPM_Scatter.png)
+![alt text](https://github.com/smohan04/School-Funding/blob/main/img/ACT_FRPM_Scatter.png)
+#### Note:
+Both scatter plots show a strong negative correlation between test scores and eligibility for Free and Reduced Price Meals.
 
 As the districts with high daily_expenditure seem to have higher percentage_of_eligible_for_frpm. Districts with high percentage_of_eligible_for_frpm seem to be have lower ACT and SAT success rates. In congruence with the other two notes, districts with high daily_expenditure seem to have less success on the ACT and SAT.
-
-
-
 
 ## Conclusions and Recommendations
 The Title I program and the LCFF were put into place to give each student equal opportunity to succeed. The data presented suggests the program is not doing enough to curb the difference between lower income students and their peers when it comes to ACT and SAT scores.
