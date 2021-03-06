@@ -34,9 +34,9 @@ Research on school funding in the state of California, where does the money come
 
 At the state and federal level, there are programs in place to help support districts with a high number of lower-income students.
 
-Title I (Federal Program)- provides federal aid program for low income school districts(source)
+Title I (Federal Program)- provides federal aid program for low income school districts ([*source*](https://tea.texas.gov/finance-and-grants/grants/essa-program/title-i-part-a-improving-basic-programs#:~:text=Title%20I%2C%20Part%20A%20%E2%80%93%20Improving,additional%20education%20resources%20at%20schools))
 
-Local Control Funding Formula (LCFF)- formula which is used to determine how much state funds school districts receive. School districts with higher levels of poverty, foster care and/or districts with ESL students receive more state funding. (source)
+Local Control Funding Formula (LCFF)- formula which is used to determine how much state funds school districts receive. School districts with higher levels of poverty, foster care and/or districts with ESL students receive more state funding. ([*source*](https://www.cde.ca.gov/fg/aa/lc/))
 
 ## Data
 
