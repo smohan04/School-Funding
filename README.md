@@ -30,7 +30,7 @@ Research on school funding in the state of California, where does the money come
 21% come from local property tax
 12% other local sources
 8% from federal sources
-1% from the lotttery (source)
+1% from the lotttery 
 At the state and federal level, there are programs in place to help support districts with a high number of lower-income students.
 
 Title I (Federal Program)- provides federal aid program for low income school districts(source)
